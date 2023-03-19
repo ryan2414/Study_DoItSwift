@@ -2,18 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "group:HelloWorld">
-   </FileRef>
-   <FileRef
-      location = "group:PickerView">
-   </FileRef>
-   <FileRef
-      location = "group:DatePicker">
-   </FileRef>
-   <FileRef
-      location = "group:ImageView">
-   </FileRef>
-   <FileRef
-      location = "group:ImageViewer">
+      location = "group:">
    </FileRef>
 </Workspace>
