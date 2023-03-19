@@ -15,6 +15,16 @@
 		901171C729C4B08B002D4CEC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 901171C529C4B08B002D4CEC /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		905265DC29C4B879007591DA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 905265D829C4B879007591DA /* ImageView.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 905265C129C4B878007591DA;
+			remoteInfo = ImageView;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
 		901171B729C4B08A002D4CEC /* HelloWorld.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloWorld.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		901171BA29C4B08A002D4CEC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +34,7 @@
 		901171C329C4B08B002D4CEC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		901171C629C4B08B002D4CEC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		901171C829C4B08B002D4CEC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		905265D829C4B879007591DA /* ImageView.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = ImageView.xcodeproj; path = ../../ImageView/ImageView.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +51,7 @@
 		901171AE29C4B08A002D4CEC = {
 			isa = PBXGroup;
 			children = (
+				905265D829C4B879007591DA /* ImageView.xcodeproj */,
 				901171B929C4B08A002D4CEC /* HelloWorld */,
 				901171B829C4B08A002D4CEC /* Products */,
 			);
@@ -65,6 +77,14 @@
 				901171C829C4B08B002D4CEC /* Info.plist */,
 			);
 			path = HelloWorld;
+			sourceTree = "<group>";
+		};
+		905265D929C4B879007591DA /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				905265DD29C4B879007591DA /* ImageView.app */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -113,12 +133,28 @@
 			mainGroup = 901171AE29C4B08A002D4CEC;
 			productRefGroup = 901171B829C4B08A002D4CEC /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 905265D929C4B879007591DA /* Products */;
+					ProjectRef = 905265D829C4B879007591DA /* ImageView.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				901171B629C4B08A002D4CEC /* HelloWorld */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		905265DD29C4B879007591DA /* ImageView.app */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.application;
+			path = ImageView.app;
+			remoteRef = 905265DC29C4B879007591DA /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
 		901171B529C4B08A002D4CEC /* Resources */ = {
