@@ -13,6 +13,7 @@
 		902AB4302A09333200519191 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 902AB42E2A09333200519191 /* Main.storyboard */; };
 		902AB4322A09333200519191 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 902AB4312A09333200519191 /* Assets.xcassets */; };
 		902AB4352A09333200519191 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 902AB4332A09333200519191 /* LaunchScreen.storyboard */; };
+		9067B8A82A0A92190056058B /* htmlView.html in Resources */ = {isa = PBXBuildFile; fileRef = 9067B8A72A0A92190056058B /* htmlView.html */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		902AB4312A09333200519191 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		902AB4342A09333200519191 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		902AB4362A09333200519191 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9067B8A72A0A92190056058B /* htmlView.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = htmlView.html; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		902AB4272A09333200519191 /* Web */ = {
 			isa = PBXGroup;
 			children = (
+				9067B8A72A0A92190056058B /* htmlView.html */,
 				902AB4282A09333200519191 /* AppDelegate.swift */,
 				902AB42A2A09333200519191 /* SceneDelegate.swift */,
 				902AB42C2A09333200519191 /* ViewController.swift */,
@@ -125,6 +128,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9067B8A82A0A92190056058B /* htmlView.html in Resources */,
 				902AB4352A09333200519191 /* LaunchScreen.storyboard in Resources */,
 				902AB4322A09333200519191 /* Assets.xcassets in Resources */,
 				902AB4302A09333200519191 /* Main.storyboard in Resources */,
